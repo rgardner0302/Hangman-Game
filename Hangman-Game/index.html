@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Hangman</title>
+</head>
+<header>
+    <div class="container">
+        <h1 class="title">College Football Hangman</h1>
+        <h2 class='subtitle'>Go Utes</h2>
+      </div>
+</header>
+<!-- <script type="text/javascript" src="assets/javascript/game.js"></script> -->
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 left_panel">
+                <h1>Choose a letter</h1>
+                <p style="font-weight:bold; font-size:18px;">
+ 
+                <!-- <label>Choose a letter:</label> -->
+ 
+                    <br />
+                    <br />
+                     
+                    <a href="javascript:selectLetter('Q');"><input type="button" value="Q"></a>
+                    <a href="javascript:selectLetter('W');"><input type="button" value="W"></a>
+                    <a href="javascript:selectLetter('E');"><input type="button" value="E"></a>
+                    <a href="javascript:selectLetter('R');"><input type="button" value="R"></a>
+                    <a href="javascript:selectLetter('T');"><input type="button" value="T"></a>
+                    <a href="javascript:selectLetter('Y');"><input type="button" value="Y"></a>
+                    <a href="javascript:selectLetter('U');"><input type="button" value="U"></a>
+                    <a href="javascript:selectLetter('I');"><input type="button" value="I"></a>
+                    <a href="javascript:selectLetter('O');"><input type="button" value="O"></a>
+                    <a href="javascript:selectLetter('P');"><input type="button" value="P"></a>
+                    <br />
+                    <br />
+                    <a href="javascript:selectLetter('A');"><input type="button" value="A"></a>
+                    <a href="javascript:selectLetter('S');"><input type="button" value="S"></a>
+                    <a href="javascript:selectLetter('D');"><input type="button" value="D"></a>
+                    <a href="javascript:selectLetter('F');"><input type="button" value="F"></a>
+                    <a href="javascript:selectLetter('G');"><input type="button" value="G"></a>
+                    <a href="javascript:selectLetter('H');"><input type="button" value="H"></a>
+                    <a href="javascript:selectLetter('J');"><input type="button" value="J"></a>
+                    <a href="javascript:selectLetter('K');"><input type="button" value="K"></a>
+                    <a href="javascript:selectLetter('L');"><input type="button" value="L"></a>
+                    <br />
+                    <br />
+                    <a href="javascript:selectLetter('Z');"><input type="button" value="Z"></a>
+                    <a href="javascript:selectLetter('X');"><input type="button" value="X"></a>
+                    <a href="javascript:selectLetter('C');"><input type="button" value="C"></a>
+                    <a href="javascript:selectLetter('V');"><input type="button" value="V"></a>
+                    <a href="javascript:selectLetter('B');"><input type="button" value="B"></a>
+                    <a href="javascript:selectLetter('N');"><input type="button" value="N"></a>
+                    <a href="javascript:selectLetter('M');"><input type="button" value="M"></a>
+                     
+                    </p>
+            </div>
+            <div class="col-md-6 right_panel">
+                <h1>Press any Key to get started!</h1>
+                    <h1>Wins: </h1>
+                    <p id="wins"></p>
+                <h1>Current Word</h1>
+                    <p id="blank"></p>
+                <h1>Number of Guesses Remaining</h1>
+                    <p id="guessesRemaining"></p>
+                <h1>Letters already guessed</h1>
+                    <p id="lettersGuessed"></p>
+            </div>
+        </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html> 
+

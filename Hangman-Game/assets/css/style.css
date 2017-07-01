@@ -1,0 +1,127 @@
+.title {
+    
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 38px;
+    padding-right: 100px;
+    text-align: right;
+    
+    color: white;
+}
+
+.row {
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.left_panel {
+    text-align: center;
+    opacity: .8;
+
+}
+
+.left_panel h1{
+    
+    font-size: 18px;
+    color: blue;
+    
+}
+
+.right_panel {
+    text-align: center;
+    border-left: solid 5px blue;
+}
+
+p {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+}
+
+h1 {
+
+	font-size: 10px;
+
+}
+
+
+
+body {
+    background-image: url("../images/cfootball.jpg");
+}
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Anton', sans-serif;*/
+
+
+body {
+    background: url(images/fridge.png) no-repeat;
+  }
+
+  .letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .letter-button-color {
+    color: darkcyan;
+  }
+
+  .fridge-color {
+    color: orange;
+  }
+
+  #display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  #clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100px;
+  }
+
+
+a {
+
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
